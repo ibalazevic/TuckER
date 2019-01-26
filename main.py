@@ -175,7 +175,7 @@ if __name__ == '__main__':
     parser.add_argument("--rdim", type=int, default=200, nargs="?",
                     help="Relation embedding dimensionality.")
     parser.add_argument("--cuda", type=bool, default=True, nargs="?",
-                    help="Whether to use cuda (GPU) or not (CPU)".)
+                    help="Whether to use cuda (GPU) or not (CPU).")
     parser.add_argument("--input_dropout", type=float, default=0.3, nargs="?",
                     help="Input layer dropout.")
     parser.add_argument("--hidden_dropout1", type=float, default=0.4, nargs="?",
