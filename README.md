@@ -1,7 +1,7 @@
 
 ## TuckER: Tensor Factorization for Knowledge Graph Completion
 
-This repository contains code for the paper [TuckER: Tensor Factorization for Knowledge Graph Completion](https://arxiv.org/pdf/1901.09590.pdf).
+This repository contains PyTorch implementation of the paper [TuckER: Tensor Factorization for Knowledge Graph Completion](https://arxiv.org/pdf/1901.09590.pdf).
 
 ### Running a model
 
