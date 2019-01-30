@@ -7,6 +7,15 @@
 
 This codebase contains PyTorch implementation of the paper [TuckER: Tensor Factorization for Knowledge Graph Completion](https://arxiv.org/pdf/1901.09590.pdf).
 
+### Link Prediction Results
+
+Dataset | MRR | Hits@10 | Hits@3 | Hits@1
+:--- | :---: | :---: | :---: | :---:
+FB15k | 0.795 | 0.892 | 0.833 | 0.741
+WN18 | 0.953 | 0.958 | 0.955 | 0.949
+FB15k-237 | 0.358 | 0.544 | 0.394 | 0.266
+WN18RR | 0.470 | 0.526 | 0.482 | 0.443
+
 ### Running a model
 
 To run the model, execute the following command:
