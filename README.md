@@ -45,4 +45,13 @@ The codebase is implemented in Python 3.6.6. Required packages are:
     
 ### Citation
 
+If you found this codebase useful, please cite:
+
+    @article{balazevic2019tucker,
+    title={TuckER: Tensor Factorization for Knowledge Graph Completion},
+    author={Bala\v{z}evi\'c, Ivana and Allen, Carl and Hospedales, Timothy M},
+    journal={arXiv preprint arXiv:1901.09590},
+    year={2019}
+    }
+
 
