@@ -5,7 +5,12 @@
   <img src="https://raw.githubusercontent.com/ibalazevic/TuckER/master/tucker.png"/ width=400>
 </p>
 
-This codebase contains PyTorch implementation of the paper [TuckER: Tensor Factorization for Knowledge Graph Completion](https://arxiv.org/pdf/1901.09590.pdf).
+This codebase contains PyTorch implementation of the paper:
+
+> TuckER: Tensor Factorization for Knowledge Graph Completion.
+> Ivana Balažević, Carl Allen, and Timothy M. Hospedales.
+> arXiv preprint arXiv:1901.09590, 2019.
+> [[Paper]](https://arxiv.org/pdf/1901.09590.pdf)
 
 ### Link Prediction Results
 
