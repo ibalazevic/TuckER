@@ -1,6 +1,10 @@
 
 ## TuckER: Tensor Factorization for Knowledge Graph Completion
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/ibalazevic/TuckER/master/tucker.png"/ width=400>
+</p>
+
 This codebase contains PyTorch implementation of the paper [TuckER: Tensor Factorization for Knowledge Graph Completion](https://arxiv.org/pdf/1901.09590.pdf).
 
 ### Running a model
