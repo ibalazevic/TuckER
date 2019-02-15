@@ -36,6 +36,15 @@ Available datasets are:
     FB15k
     WN18
     
+To reproduce the results from the paper, use the following combinations of hyperparameters with `batch_size=128`:
+
+dataset | lr | dr | edim | rdim | input_d | hidden_d1 | hidden_d2 | label_smoothing 
+:--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---:
+FB15k | 0.003 | 0.99 | 200 | 200 | 0.2 | 0.2 | 0.3 | 0.
+WN18 | 0.005 | 0.995 | 200 | 30 | 0.2 | 0.1 | 0.2 | 0.1
+FB15k-237 | 0.0005 | 1.0 | 200 | 200 | 0.3 | 0.4 | 0.5 | 0.1
+WN18RR | 0.01 | 1.0 | 200 | 30 | 0.2 | 0.2 | 0.3| 0.1
+    
 ### Requirements
 
 The codebase is implemented in Python 3.6.6. Required packages are:
