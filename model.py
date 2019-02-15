@@ -1,7 +1,7 @@
 import numpy as np
 import torch
 from torch.nn import functional as F, Parameter
-from torch.nn.init import xavier_normal_, xavier_uniform_
+from torch.nn.init import xavier_normal_
 
 
 class TuckER(torch.nn.Module):
