@@ -79,7 +79,7 @@ class Experiment:
 
             sort_idxs = sort_idxs.cpu().numpy()
             for j in range(data_batch.shape[0]):
-                rank = np.where(sort_idxs[j]==e2_idx[j])[0][0]
+                rank = np.where(sort_idxs[j]==e2_idx[j].item())[0][0]
                 ranks.append(rank+1)
 
                 for hits_level in range(10):
