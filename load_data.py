@@ -1,6 +1,6 @@
 class Data:
 
-    def __init__(self, data_dir="data/FB15K-237/", reverse=False):
+    def __init__(self, data_dir="data/FB15k-237/", reverse=False):
         self.train_data = self.load_data(data_dir, "train", reverse=reverse)
         self.valid_data = self.load_data(data_dir, "valid", reverse=reverse)
         self.test_data = self.load_data(data_dir, "test", reverse=reverse)
