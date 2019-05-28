@@ -1,6 +1,5 @@
 import numpy as np
 import torch
-from torch.nn import functional as F, Parameter
 from torch.nn.init import xavier_normal_
 
 
@@ -42,6 +41,6 @@ class TuckER(torch.nn.Module):
         x = self.bn1(x)
         x = self.hidden_dropout2(x)
         x = torch.mm(x, self.E.weight.transpose(1,0))
-        pred = F.sigmoid(x)
+        pred = torch.sigmoid(x)
         return pred
 
