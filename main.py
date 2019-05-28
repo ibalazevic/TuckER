@@ -136,9 +136,9 @@ class Experiment:
                 loss = model.loss(predictions, targets)
                 loss.backward()
                 opt.step()
+                losses.append(loss.item())
             if self.decay_rate:
                 scheduler.step()
-            losses.append(loss.item())
             print(it)
             print(time.time()-start_train)    
             print(np.mean(losses))
