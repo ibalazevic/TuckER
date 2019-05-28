@@ -49,8 +49,8 @@ WN18RR | 0.01 | 1.0 | 200 | 30 | 0.2 | 0.2 | 0.3| 0.1
 
 The codebase is implemented in Python 3.6.6. Required packages are:
 
-    numpy      1.14.5
-    pytorch    0.4.0
+    numpy      1.15.1
+    pytorch    1.0.1
     
 ### Citation
 
