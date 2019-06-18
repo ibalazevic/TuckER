@@ -11,6 +11,7 @@ This codebase contains PyTorch implementation of the paper:
 > Ivana Balažević, Carl Allen, and Timothy M. Hospedales.
 > arXiv preprint arXiv:1901.09590, 2019.
 > [[Paper]](https://arxiv.org/pdf/1901.09590.pdf)
+> [[Short Paper]](https://openreview.net/pdf?id=BkgREcHjnE)
 
 ### Link Prediction Results
 
@@ -62,5 +63,14 @@ If you found this codebase useful, please cite:
     journal={arXiv preprint arXiv:1901.09590},
     year={2019}
     }
+or for short paper:
+    
+    @inproceedings{balazevic2019tucker,
+    title={TuckER: Tensor Factorization for Knowledge Graph Completion},
+    author={Bala\v{z}evi\'c, Ivana and Allen, Carl and Hospedales, Timothy M},
+    booktitle={ICML Adaptive & Multitask Learning Workshop},
+    year={2019}
+    }
+
 
 
