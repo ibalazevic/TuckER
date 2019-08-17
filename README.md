@@ -5,11 +5,11 @@
   <img src="https://raw.githubusercontent.com/ibalazevic/TuckER/master/tucker.png"/ width=400>
 </p>
 
-This codebase contains PyTorch implementation of the EMNLP 2019 paper:
+This codebase contains PyTorch implementation of the paper:
 
 > TuckER: Tensor Factorization for Knowledge Graph Completion.
 > Ivana Balažević, Carl Allen, and Timothy M. Hospedales.
-> arXiv preprint arXiv:1901.09590, 2019.
+> Empirical Methods in Natural Language Processing, 2019.
 > [[Paper]](https://arxiv.org/pdf/1901.09590.pdf)
 > [[Short Paper]](https://openreview.net/pdf?id=BkgREcHjnE)
 
