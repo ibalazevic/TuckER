@@ -11,6 +11,10 @@ This codebase contains PyTorch implementation of the paper:
 > Ivana Balažević, Carl Allen, and Timothy M. Hospedales.
 > Empirical Methods in Natural Language Processing (EMNLP), 2019.
 > [[Paper]](https://arxiv.org/pdf/1901.09590.pdf)
+
+> TuckER: Tensor Factorization for Knowledge Graph Completion.
+> Ivana Balažević, Carl Allen, and Timothy M. Hospedales.
+> ICML Adaptive & Multitask Learning Workshop, 2019.
 > [[Short Paper]](https://openreview.net/pdf?id=BkgREcHjnE)
 
 ### Link Prediction Results
