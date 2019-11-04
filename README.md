@@ -67,14 +67,4 @@ If you found this codebase useful, please cite:
     booktitle={Empirical Methods in Natural Language Processing},
     year={2019}
     }
-or for short paper:
-    
-    @inproceedings{balazevic2019tucker,
-    title={TuckER: Tensor Factorization for Knowledge Graph Completion},
-    author={Bala\v{z}evi\'c, Ivana and Allen, Carl and Hospedales, Timothy M},
-    booktitle={ICML Adaptive & Multitask Learning Workshop},
-    year={2019}
-    }
-
-
 
