@@ -189,7 +189,7 @@ if __name__ == '__main__':
     seed = 20
     np.random.seed(seed)
     torch.manual_seed(seed)
-    if torch.cuda.is_available:
+    if torch.cuda.is_available():
         torch.cuda.manual_seed_all(seed) 
     d = Data(data_dir=data_dir, reverse=True)
     experiment = Experiment(num_iterations=args.num_iterations, batch_size=args.batch_size, learning_rate=args.lr, 
