@@ -10,7 +10,8 @@ class Data:
         self.valid_relations = self.get_relations(self.valid_data)
         self.test_relations = self.get_relations(self.test_data)
         self.relations = self.train_relations + [i for i in self.valid_relations \
-                if i not in self.train_relations] + [i for i in self.test_relations \
+                if i not in self.train_relations]
+        self.relations = self.train_relations + [i for i in self.test_relations \
                 if i not in self.train_relations]
 
     def load_data(self, data_dir, data_type="train", reverse=False):
