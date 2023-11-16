@@ -9,8 +9,9 @@ class TuckER(torch.nn.Module):
 
         self.E = torch.nn.Embedding(len(d.entities), d1)
         self.R = torch.nn.Embedding(len(d.relations), d2)
+        device = torch.device('cuda:0' if torch.cuda.is_available() else 'cpu')
         self.W = torch.nn.Parameter(torch.tensor(np.random.uniform(-1, 1, (d2, d1, d1)), 
-                                    dtype=torch.float, device="cuda", requires_grad=True))
+                                    dtype=torch.float, device=device, requires_grad=True))
 
         self.input_dropout = torch.nn.Dropout(kwargs["input_dropout"])
         self.hidden_dropout1 = torch.nn.Dropout(kwargs["hidden_dropout1"])
